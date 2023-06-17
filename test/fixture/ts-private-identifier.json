@@ -53,10 +53,7 @@
                                                     "id": {
                                                         "type": "Identifier",
                                                         "name": "privateField"
-                                                    },
-                                                    "trailingComments": [],
-                                                    "leadingComments": [],
-                                                    "innerComments": []
+                                                    }
                                                 },
                                                 "computed": false,
                                                 "optional": false
@@ -77,9 +74,6 @@
                             "static": false,
                             "generator": false,
                             "async": false,
-                            "trailingComments": [],
-                            "leadingComments": [],
-                            "innerComments": [],
                             "expression": false
                         }
                     ]

@@ -32,10 +32,7 @@
                                 "typeAnnotation": {
                                     "type": "TSStringKeyword"
                                 }
-                            },
-                            "trailingComments": [],
-                            "leadingComments": [],
-                            "innerComments": []
+                            }
                         }
                     ]
                 },

@@ -235,9 +235,6 @@
                                 ]
                             },
                             "static": false,
-                            "trailingComments": [],
-                            "leadingComments": [],
-                            "innerComments": [],
                             "loc": {
                                 "start": {
                                     "line": 2,

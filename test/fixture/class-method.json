@@ -204,9 +204,6 @@
                             "static": false,
                             "generator": false,
                             "async": false,
-                            "trailingComments": [],
-                            "leadingComments": [],
-                            "innerComments": [],
                             "loc": {
                                 "start": {
                                     "line": 2,

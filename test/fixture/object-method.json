@@ -284,22 +284,7 @@
                                     },
                                     "computed": false,
                                     "generator": false,
-                                    "async": false,
-                                    "trailingComments": [],
-                                    "leadingComments": [],
-                                    "innerComments": [],
-                                    "id": null,
-                                    "method": true,
-                                    "loc": {
-                                        "start": {
-                                            "line": 3,
-                                            "column": 4
-                                        },
-                                        "end": {
-                                            "line": 5,
-                                            "column": 5
-                                        }
-                                    }
+                                    "async": false
                                 }
                             ]
                         }
@@ -409,22 +394,7 @@
                                     },
                                     "computed": false,
                                     "generator": false,
-                                    "async": false,
-                                    "trailingComments": [],
-                                    "leadingComments": [],
-                                    "innerComments": [],
-                                    "id": null,
-                                    "method": true,
-                                    "loc": {
-                                        "start": {
-                                            "line": 9,
-                                            "column": 4
-                                        },
-                                        "end": {
-                                            "line": 9,
-                                            "column": 26
-                                        }
-                                    }
+                                    "async": false
                                 }
                             ]
                         }

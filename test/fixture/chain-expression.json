@@ -107,10 +107,7 @@
                                 "name": "bar"
                             },
                             "computed": false,
-                            "optional": true,
-                            "trailingComments": [],
-                            "leadingComments": [],
-                            "innerComments": []
+                            "optional": true
                         }
                     }
                 ],
@@ -162,7 +159,7 @@
                             "name": "baz"
                         },
                         "init": {
-                            "type": "CallExpression",
+                            "type": "OptionalCallExpression",
                             "start": 34,
                             "end": 41,
                             "loc": {
@@ -192,11 +189,7 @@
                                 "name": "foo"
                             },
                             "arguments": [],
-                            "optional": true,
-                            "stype": "OptionalCallExpression",
-                            "trailingComments": [],
-                            "leadingComments": [],
-                            "innerComments": []
+                            "optional": true
                         }
                     }
                 ],
