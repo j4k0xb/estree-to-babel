@@ -13,8 +13,8 @@ Convert [`ESTree`](https://github.com/estree/estree)-compatible `JavaScript AST`
 To use parsers like:
 
 - [`acorn`](https://github.com/acornjs/acorn)
-- [`cherow`](https://github.com/cherow/cherow)
 - [`espree`](https://github.com/eslint/espree)
+- [`meriyah`](https://github.com/meriyah/meriyah)
 - etc...
 
 With `babel` tools like:
@@ -60,11 +60,11 @@ npm i estree-to-babel
 ### Example
 
 ```js
-const cherow = require('cherow');
+const meriyah = require('meriyah');
 const toBabel = require('estree-to-babel');
 const traverse = require('@babel/traverse').default;
 
-const ast = toBabel(cherow.parse(`
+const ast = toBabel(meriyah.parseScript(`
     const f = ({a}) => a;
 `));
 
@@ -76,6 +76,11 @@ traverse({
     },
 });
 ```
+
+## Performance
+
+When using [`meriyah`](https://github.com/meriyah/meriyah) and estree-to-babel,
+its up to 2.8x faster than [`@babel/parser`](https://babeljs.io/docs/babel-parser) alone.
 
 ## License
 
