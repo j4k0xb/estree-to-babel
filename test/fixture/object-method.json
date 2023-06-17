@@ -284,7 +284,19 @@
                                     },
                                     "computed": false,
                                     "generator": false,
-                                    "async": false
+                                    "async": false,
+                                    "id": null,
+                                    "method": true,
+                                    "loc": {
+                                        "start": {
+                                            "line": 3,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 5,
+                                            "column": 5
+                                        }
+                                    }
                                 }
                             ]
                         }
@@ -394,7 +406,19 @@
                                     },
                                     "computed": false,
                                     "generator": false,
-                                    "async": false
+                                    "async": false,
+                                    "id": null,
+                                    "method": true,
+                                    "loc": {
+                                        "start": {
+                                            "line": 9,
+                                            "column": 4
+                                        },
+                                        "end": {
+                                            "line": 9,
+                                            "column": 26
+                                        }
+                                    }
                                 }
                             ]
                         }
